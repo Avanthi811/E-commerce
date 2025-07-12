@@ -6,12 +6,12 @@ function Cart() {
     return store.cartState.cartProducts
   })
 
-  let productList =cartProducts;
+  let productsList =cartProducts;
   return (
     <div>
       <h1 className='text-8xl text-center'>Cart</h1>
       <div>
-         <ProductList productList={productList}/>
+         <ProductList productsList={productsList}/>
       </div>
     </div>
   )
